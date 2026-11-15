@@ -1,10 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProdutosController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[ProdutosController::class, 'index'])->name('index');
 
 Route::get('/cadastrar', function () {
     return view('produtos.cadastrar-produto');
