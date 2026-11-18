@@ -3,17 +3,15 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProdutosController;
 
-Route::get('/',[ProdutosController::class, 'index'])->name('index');
+Route::get('/', [ProdutosController::class, 'home']);
 
-Route::get('/cadastrar', function () {
-    return view('produtos.cadastrar-produto');
-});
+Route::get('/produtos', [ProdutosController::class, 'index'])->name('produtos.index');
 
-Route::get('/detalhe', function () {
-    return view('produtos.detalhe-produto');
-});
+// Route::get('/cadastrar', function () {
+//     return view('produtos.cadastrar-produto');
+// });
 
-Route::get('/produtos', function () {
-    return view('produtos.listar-produto');
-})->name('produtos.listar');
+// Route::get('/detalhe', function () {
+//     return view('produtos.detalhe-produto');
+// });
 

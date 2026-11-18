@@ -44,6 +44,18 @@ body {
     margin-top: 48px;
 }
 
+.img-container {
+  width: 100%; 
+  height: 200px; 
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .title {
     font-family: 'Inria Serif';
     color: var(--text-dark-color);
