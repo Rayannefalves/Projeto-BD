@@ -1,21 +1,20 @@
 <?php
-
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 class Produtos extends Model
 {
-    protected $table = 'produto';
+   protected $table = 'produto';
 
-    protected $primaryKey = 'id';
+   protected $primaryKey = 'id';
 
-    public $timestamps = false;
+   public $timestamps = false;
 
-    protected $fillable = [
-        'nome',
-        'descricao',
-        'preco',
-        'url',
-    ];
+   protected $fillable = [
+       'nome',
+       'descricao',
+       'preco',
+       'url',
+   ];
 }

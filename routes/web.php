@@ -12,3 +12,8 @@ Route::get('/cadastrar', function () {
 Route::get('/detalhe', function () {
     return view('produtos.detalhe-produto');
 });
+
+Route::get('/produtos', function () {
+    return view('produtos.listar-produto');
+})->name('produtos.listar');
+
