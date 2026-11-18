@@ -23,10 +23,6 @@ body {
     background-color: var(--neutral-color);
 }
 
-.main {
-    /* min-height: 100vh; */
-}
-
 .navbar {
     position: sticky;
     top: 0;

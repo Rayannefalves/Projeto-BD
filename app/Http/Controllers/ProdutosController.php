@@ -15,4 +15,10 @@ class ProdutosController extends Controller
         $produtos = Produtos::all(); 
         return view('produtos.listar-produto', compact('produtos'));
     }
+
+    public function details($id) 
+    {
+        $produto = Produtos::findOrFail($id); 
+        return view('produtos.detalhe-produto', compact('produto'));
+    }
 }

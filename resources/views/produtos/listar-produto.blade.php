@@ -26,7 +26,8 @@
                                 <p class="card-text">{{ $prod->descricao }}</p>
                                 <p class="fw-bold text-primary mb-3">R$ {{ number_format($prod->preco, 2, ',', '.') }}</p>
                                 <div class="mt-auto">
-                                    <a href="#" class="btn btn-outline-primary btn-sm">+ Detalhes</a>
+                                    <a href="{{ route('produto.details', $prod->id) }}"
+                                        class="btn btn-outline-primary btn-sm">+ Detalhes</a>
                                 </div>
                             </div>
                         </div>
