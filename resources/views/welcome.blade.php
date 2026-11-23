@@ -12,7 +12,7 @@
 
         <div class="buttons-action mb-5">
             <a href="/produtos" class="btn btn-primary" role="button">Ver Cardapio</a>
-            <a href="#" class="btn btn-success" role="button">Falar no WhatsApp</a>
+            <a href="https://wa.me/5511912345678" class="btn btn-success" role="button" target="_blank">Falar no WhatsApp</a>
         </div>
 
         <div class="featured-products">
@@ -46,8 +46,13 @@
 
     <section id="about-us" class="mt-5">
         <h2 class="title">Sobre Nós</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam ipsa, quos velit dolorum quasi minus
-            quaerat amet autem aperiam. Eveniet, non. Harum corrupti odit cum quo ipsum, ut officiis illum?</p>
+        <p>Nascida em 2022, a Café Mon Vie é uma empresa familiar apaixonada pela arte da confeitaria e da panificação
+            artesanal. Unimos o carinho das receitas feitas à mão à praticidade do ambiente digital, levando sabores
+            únicos diretamente para a mesa de clientes em todo o Vale do Paraíba.
+
+            Nosso cardápio é pensado para tornar o dia a dia e as datas especiais ainda mais memoráveis. Produzimos
+            desde pães de fermentação natural e bolos caseiros até biscoitos decorados e kits temáticos personalizados,
+            sempre com ingredientes selecionados e atenção a cada detalhe.</p>
     </section>
 </div>
 
