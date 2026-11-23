@@ -13,7 +13,7 @@
                         <a class="nav-link" href="/produtos">Catalogo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-us">Sobre Nós</a>
+                        <a class="nav-link" href="{{ url('/') }}#about-us">Sobre Nós</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contato</a>
